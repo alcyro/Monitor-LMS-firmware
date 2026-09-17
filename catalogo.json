@@ -1,6 +1,7 @@
 {
-  "builds": {
-    "filho-wroom-21.35": {
+  "builds": [
+    {
+      "buildId": "filho-wroom-21.35",
       "url": "https://raw.githubusercontent.com/alcyro/Monitor-LMS-firmware/main/filho-wroom-21.35.bin",
       "sha256": "47227e77f27e14d4822a94c991d02bb38d647b25f38583cdc41896370e00fc20",
       "version": "21.35",
@@ -8,7 +9,8 @@
       "variant": "WROOM",
       "bytes": 1292912
     },
-    "filho-wroom-21.36": {
+    {
+      "buildId": "filho-wroom-21.36",
       "url": "https://raw.githubusercontent.com/alcyro/Monitor-LMS-firmware/main/filho-wroom-21.36.bin",
       "sha256": "f848bfdd6df00256b191e1ac5d91dae9f851256db6e7dfeb1924b59fb5aba442",
       "version": "21.36",
@@ -16,5 +18,5 @@
       "variant": "WROOM",
       "bytes": 1292944
     }
-  }
+  ]
 }
