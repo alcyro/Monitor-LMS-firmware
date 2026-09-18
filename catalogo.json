@@ -37,6 +37,15 @@
       "bytes": 1293200
     },
     {
+      "buildId": "filho-wroom-21.39",
+      "url": "https://raw.githubusercontent.com/alcyro/Monitor-LMS-firmware/main/filho-wroom-21.39.bin",
+      "sha256": "6109b70b70d758d1aa76740c47603a600911f0b82bc275d8bb6ea93ecd98f21a",
+      "version": "21.39",
+      "target": "FILHO",
+      "variant": "WROOM",
+      "bytes": 1293216
+    },
+    {
       "buildId": "pai-wrover-27.96W",
       "url": "https://raw.githubusercontent.com/alcyro/Monitor-LMS-firmware/main/pai-wrover-27.96W.bin",
       "sha256": "fe33b519d776ed3340a995fb6d5862002146cf970212f60a1a72656a553580d5",
