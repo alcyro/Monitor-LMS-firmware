@@ -12,11 +12,14 @@ não funcionaria.
 | firmware | pode ser publicado? | por quê |
 |---|---|---|
 | **Filho** (nó sensor) | ✅ sim | conversa por ESP-NOW com o Gateway; não tem chave de nuvem |
-| **Gateway / Pai** | ❌ **não** | o binário carrega as chaves do ThingSpeak em texto claro |
+| **Gateway / Pai** | ✅ desde a v27.96W | as chaves saíram do binário e vivem só no NVS |
 
-Isso foi **medido**, não presumido: `strings firmware.bin` encontra as chaves dentro do binário do
-Pai. Publicá-lo equivaleria a publicar as chaves — inclusive a de escrita do canal de comandos, que
-permite comandar a frota.
+Isso é **medido a cada publicação**, não presumido. Até a v27.95W, `strings firmware.bin` encontrava
+as chaves dentro do binário do Pai — publicá-lo equivaleria a publicar a chave de escrita do canal de
+comandos, que permite comandar a frota. A v27.96W as tirou de lá: os valores vivem só no NVS.
+
+⚠️ **A regra não mudou, só o binário.** Antes de subir qualquer `.bin` do Pai, confira de novo —
+um `#define` preenchido por engano recoloca a chave no arquivo.
 
 O Filho publica só o SSID da malha, que é transmitido pelo ar de qualquer forma.
 
