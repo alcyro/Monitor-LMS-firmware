@@ -26,6 +26,15 @@
       "target": "FILHO",
       "variant": "WROOM",
       "bytes": 1292960
+    },
+    {
+      "buildId": "filho-wroom-21.38",
+      "url": "https://raw.githubusercontent.com/alcyro/Monitor-LMS-firmware/main/filho-wroom-21.38.bin",
+      "sha256": "e57905e1d9e66646a5f3040b8bfc63bb532b5cfc5a0d0b2930884e510761871b",
+      "version": "21.38",
+      "target": "FILHO",
+      "variant": "WROOM",
+      "bytes": 1293200
     }
   ]
 }
