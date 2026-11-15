@@ -107,6 +107,15 @@
       "target": "PAI",
       "variant": "WROVER",
       "bytes": 1811968
+    },
+    {
+      "buildId": "pai-wrover-28.22W",
+      "url": "https://raw.githubusercontent.com/alcyro/Monitor-LMS-firmware/main/pai-wrover-28.22W.bin",
+      "sha256": "b7cd152359d9d19cf2c7f3b73f26958d78e957364157e4bbeff836e4e0792424",
+      "version": "28.22W",
+      "target": "PAI",
+      "variant": "WROVER",
+      "bytes": 1812384
     }
   ]
 }
